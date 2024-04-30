@@ -1,5 +1,5 @@
+import "@/styles/globals.css"
 import { Inter } from "next/font/google"
-import "@/styles/tailwind.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -7,9 +7,9 @@ export const metadata = {
   title: "Julian Sommer",
   description: "Julian Sommer Portfolio",
 
-  icons: {
-    icon: "favicon.ico",
-  },
+  // icons: {
+  //   icon: "favicon.ico",
+  // },
 }
 
 export default function RootLayout({ children }) {
