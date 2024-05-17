@@ -19,12 +19,12 @@ export default function Navbar() {
       <h1 className="-rotate-2 text-2xl font-bold underline decoration-green-500 underline-offset-8">
         Julian Sommer 👨🏻‍💻
       </h1>
-      <div>
+      <div className="item-center flex gap-5">
         {socials.map((social, index) => {
           const Icon = social.icon
           return (
             <Link href={social.link} key={index} aria-label={social.label}>
-              <Icon />
+              <Icon className="h-5 w-5 transition-all hover:scale-125" />
             </Link>
           )
         })}
