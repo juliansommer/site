@@ -6,7 +6,6 @@ import { ThemeProvider } from "@/components/ThemeProvider"
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  applicationName: "Julian Sommer Site",
   authors: {
     name: "Julian Sommer",
   },
