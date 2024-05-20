@@ -8,7 +8,9 @@ const space_grotesk = Space_Grotesk({ subsets: ["latin"] })
 export const metadata: Metadata = {
   authors: {
     name: "Julian Sommer",
+    url: "https://github.com/juliansommer",
   },
+  creator: "Julian Sommer",
   description: "Julian Sommer Site",
   keywords: ["Julian Sommer", "Julian Sommer Site"],
   robots: {

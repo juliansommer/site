@@ -1,8 +1,10 @@
+import { MovingBorderBtn } from "@/components/ui/MovingBorder"
 import Link from "next/link"
+import Title from "./Title"
 
 export default function HeroSection() {
   return (
-    <div className="flex min-h-[60vh] flex-col-reverse items-center justify-between gap-14 lg:flex-row lg:gap-0">
+    <div className="animate-move-up flex min-h-[60vh] flex-col-reverse items-center justify-between gap-14 lg:flex-row lg:gap-0">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl font-bold lg:text-7xl">
           Nice to meet you! 👋
@@ -16,16 +18,10 @@ export default function HeroSection() {
           building modern web applications.
         </p>
         <Link href={"mailto:hi@julians.au"} className="group inline-block">
-          <div>
-            <h1 className="text-3xl font-bold transition-all group-hover:text-green-400">
-              Contact Me 📧
-            </h1>
-            <div className="h-2 w-40 rounded-full bg-green-500"></div>
-            <div className="h-2 w-40 translate-x-2 rounded-full bg-indigo-500"></div>
-          </div>
+          <Title text={"Contact Me 📧"} />
         </Link>
       </div>
-      <div>
+      <div className="relative">
         <div className="relative h-72 w-72 -rotate-[30deg] space-y-3">
           <div className="flex translate-x-8 gap-3">
             <div className="h-32 w-32 rounded-2xl bg-green-500"></div>
@@ -36,6 +32,13 @@ export default function HeroSection() {
             <div className="h-32 w-32 rounded-full bg-green-500"></div>
           </div>
           <div className="glow absolute right-1/2 top-[40%] -z-10"></div>
+        </div>
+        <div className="absolute bottom-5 left-0 sm:-left-10 sm:bottom-14">
+          {/*
+          <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
+            <p>📢 Available for Work</p>
+          </MovingBorderBtn>
+          */}
         </div>
       </div>
     </div>
