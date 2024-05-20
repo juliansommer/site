@@ -1,5 +1,8 @@
+# Site
+
+This project is my personal site which uses Next.js with React, TypeScript and Tailwind CSS.
+
 # TODO
 
 - add theme change button
 - add experience section
-- change colours to blue and purple instead of green and purple

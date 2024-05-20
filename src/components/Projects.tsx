@@ -7,7 +7,7 @@ import {
 } from "react-icons/si"
 import Title from "./Title"
 import Link from "next/link"
-import { cn } from "@/lib/utils"
+import cn from "@/utils/cn"
 import { DirectionAwareHover } from "@/components/ui/DirectionAwareHover"
 
 export default function Projects() {
@@ -17,14 +17,14 @@ export default function Projects() {
       tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiMongodb],
       link: "https://github.com/juliansommer/prompts",
       cover: "/prompts.png",
-      background: "bg-indigo-500",
+      background: "bg-sky-500",
     },
     {
       title: "Site",
       tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss],
       link: "https://github.com/juliansommer/site",
       cover: "/site.png",
-      background: "bg-green-500",
+      background: "bg-purple-500",
     },
   ]
   return (

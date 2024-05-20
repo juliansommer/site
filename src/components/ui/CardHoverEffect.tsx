@@ -1,5 +1,5 @@
 "use client"
-import { cn } from "@/lib/utils"
+import cn from "@/utils/cn"
 import { AnimatePresence, motion } from "framer-motion"
 import { useState } from "react"
 import { IconType } from "react-icons"
@@ -23,13 +23,13 @@ export const HoverEffect = ({
         return (
           <div
             key={idx}
-            className="group relative  block h-full w-full p-2"
+            className="group relative block h-full w-full p-2"
             onMouseEnter={() => setHoveredIndex(idx)}
             onMouseLeave={() => setHoveredIndex(null)}>
             <AnimatePresence>
               {hoveredIndex === idx && (
                 <motion.span
-                  className="absolute inset-0 block h-full w-full rounded-lg bg-neutral-200  dark:bg-slate-800/[0.8]"
+                  className="absolute inset-0 block h-full w-full rounded-lg bg-neutral-200 dark:bg-slate-800/[0.8]"
                   layoutId="hoverBackground"
                   initial={{ opacity: 0 }}
                   animate={{
@@ -43,7 +43,7 @@ export const HoverEffect = ({
                 />
               )}
             </AnimatePresence>
-            <div className="relative z-20 w-full cursor-pointer overflow-hidden rounded-md bg-black p-4 ring-green-500 transition-all duration-500 group-hover:ring-2">
+            <div className="relative z-20 w-full cursor-pointer overflow-hidden rounded-md bg-black p-4 ring-sky-500 transition-all duration-500 group-hover:ring-2">
               <div className="relative z-50 space-y-5 py-10 ">
                 <Icon className="mx-auto h-8 w-8" />
                 <p className="text-center text-2xl font-bold text-gray-300">

@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
-import { Space_Grotesk } from "next/font/google"
+import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/ThemeProvider"
 
-const space_grotesk = Space_Grotesk({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   authors: {
@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <body className={space_grotesk.className}>
+        <body className={inter.className}>
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"

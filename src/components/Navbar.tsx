@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import cn from "@/utils/cn"
 import Link from "next/link"
 import { SiGithub, SiLinkedin } from "react-icons/si"
 
@@ -21,7 +21,7 @@ export default function Navbar({ className }: { className?: string }) {
         "animate-move-down flex items-center justify-between py-10",
         className,
       )}>
-      <h1 className="-rotate-2 text-2xl font-bold underline decoration-green-500 underline-offset-8">
+      <h1 className="-rotate-2 text-2xl font-bold underline decoration-purple-500 underline-offset-8">
         Julian Sommer 👨🏻‍💻
       </h1>
       <div className="item-center flex gap-5">
