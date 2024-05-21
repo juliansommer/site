@@ -3,6 +3,7 @@
 
 # next.js
 /.next/
+next-env.d.ts
 
 # misc
 .DS_Store
@@ -11,12 +12,11 @@
 # debug
 npm-debug.log*
 
-# local env files
-.env*.local
+# env files
+.env*
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts

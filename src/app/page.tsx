@@ -1,8 +1,8 @@
+import Footer from "@/components/Footer"
 import HeroSection from "@/components/HeroSection"
 import Navbar from "@/components/Navbar"
-import Skills from "@/components/Skills"
 import Projects from "@/components/Projects"
-import Footer from "@/components/Footer"
+import Skills from "@/components/Skills"
 
 export default function Home() {
   return (

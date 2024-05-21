@@ -6,3 +6,4 @@ This project is my personal site which uses Next.js with React, TypeScript and T
 
 - add theme change button
 - add experience section
+- add some animations on scroll?

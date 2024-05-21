@@ -2,6 +2,8 @@ import Link from "next/link"
 import Title from "./Title"
 
 export default function HeroSection() {
+  const email = process.env.EMAIL
+
   return (
     <div className="animate-move-up flex min-h-[60vh] flex-col-reverse items-center justify-between gap-14 lg:flex-row lg:gap-0">
       <div className="space-y-10 text-center lg:text-left">
@@ -16,7 +18,7 @@ export default function HeroSection() {
           I&apos;m a fullstack developer from Australia with a passion for
           building modern web applications.
         </p>
-        <Link href={"mailto:hi@julians.au"} className="group inline-block">
+        <Link href={`mailto:${email}`} className="group inline-block">
           <Title text={"Contact 📧"} />
         </Link>
       </div>

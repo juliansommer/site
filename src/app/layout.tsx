@@ -1,11 +1,13 @@
+import ThemeButton from "@/components/ThemeButton"
+import { ThemeProvider } from "@/components/ThemeProvider"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
-import { ThemeProvider } from "@/components/ThemeProvider"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  applicationName: "Julian Sommer Site",
   authors: {
     name: "Julian Sommer",
     url: "https://github.com/juliansommer",
@@ -43,6 +45,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange>
             {children}
+            {/* <ThemeButton /> */}
           </ThemeProvider>
         </body>
       </head>
