@@ -1,8 +1,8 @@
 "use client"
-import { useRef, useState } from "react"
-import Image from "next/image"
+import { cn } from "@/lib/utils"
 import { AnimatePresence, motion } from "framer-motion"
-import cn from "@/utils/cn"
+import Image from "next/image"
+import { useRef, useState } from "react"
 
 export const DirectionAwareHover = ({
   imageUrl,

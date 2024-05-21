@@ -1,32 +1,10 @@
-import {
-  SiMongodb,
-  SiNextdotjs,
-  SiReact,
-  SiTailwindcss,
-  SiTypescript,
-} from "react-icons/si"
-import Title from "./Title"
-import Link from "next/link"
-import cn from "@/utils/cn"
 import { DirectionAwareHover } from "@/components/ui/DirectionAwareHover"
+import { projects } from "@/lib/data"
+import { cn } from "@/lib/utils"
+import Link from "next/link"
+import Title from "./Title"
 
 export default function Projects() {
-  const projects = [
-    {
-      title: "Prompts",
-      tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiMongodb],
-      link: "https://github.com/juliansommer/prompts",
-      cover: "/prompts.png",
-      background: "bg-sky-500",
-    },
-    {
-      title: "Site",
-      tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss],
-      link: "https://github.com/juliansommer/site",
-      cover: "/site.png",
-      background: "bg-purple-500",
-    },
-  ]
   return (
     <div className="p-5 py-10 sm:p-0">
       <Title

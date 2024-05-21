@@ -1,24 +1,12 @@
-import cn from "@/utils/cn"
+import { socials } from "@/lib/data"
+import { cn } from "@/lib/utils"
 import Link from "next/link"
-import { SiGithub, SiLinkedin } from "react-icons/si"
 
 export default function Navbar({ className }: { className?: string }) {
-  const socials = [
-    {
-      link: "https://www.linkedin.com/in/juliansommer/",
-      label: "LinkedIn",
-      icon: SiLinkedin,
-    },
-    {
-      link: "https://github.com/juliansommer",
-      label: "GitHub",
-      icon: SiGithub,
-    },
-  ]
   return (
     <nav
       className={cn(
-        "animate-move-down flex items-center justify-between py-10",
+        "flex animate-move-down items-center justify-between py-10",
         className,
       )}>
       <h1 className="-rotate-2 text-2xl font-bold underline decoration-purple-500 underline-offset-8">
