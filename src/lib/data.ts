@@ -19,14 +19,7 @@ export const projects = [
     link: "https://github.com/juliansommer/prompts",
     cover: "/prompts.png",
     background: "bg-sky-500",
-  },
-  {
-    title: "Site",
-    tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss],
-    link: "https://github.com/juliansommer/site",
-    cover: "/site.png",
-    background: "bg-purple-500",
-  },
+  }
 ]
 
 export const skills = [
