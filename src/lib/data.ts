@@ -86,7 +86,7 @@ export const experience = [
       "●	Used Next.js with TypeScript to dynamically create web pages for the most popular categories and vendors",
       "●	Used GitHub Actions with Docker to containerize the website and upload the image to GitHub Packages for CI/CD",
       "●	Polished everything leading up to the site launch using Python, React.js, Go and MongoDB"],
-    tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiMongodb]
+    tech: [SiPython, SiReact, SiNextdotjs, SiTypescript, SiGo, SiTailwindcss, SiDocker, SiMongodb]
   },
 
   {
