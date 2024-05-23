@@ -73,3 +73,37 @@ export const socials = [
     icon: SiGithub,
   },
 ]
+
+export const experience = [
+  {
+    year: "September 2023 - Present",
+    role: "Junior Full Stack Developer",
+    company: "Metatrail",
+    description: [
+      "●	Optimized image loading using Next.js leading to a performance improvement of 50 on Google Lighthouse",
+      "●	Optimized page loading and requests using React by making the GraphQL queries only run-on tab change",
+      "●	Created Python script to scrape and store website metadata and icons from a million domains",
+      "●	Used Next.js with TypeScript to dynamically create web pages for the most popular categories and vendors",
+      "●	Used GitHub Actions with Docker to containerize the website and upload the image to GitHub Packages for CI/CD",
+      "●	Polished everything leading up to the site launch using Python, React.js, Go and MongoDB"],
+    tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiMongodb]
+  },
+
+  {
+    year: "November 2024",
+    role: "Highschool Diploma",
+    company: "Good Shepherd Lutheran College",
+    description: ["● Related Coursework: Digital Solutions, Math Methods, General Math, English"],
+    tech: []
+  },
+  {
+    year: "January 2022 - September 2023",
+    role: "Certificate 3 of Information Technology ICT30120",
+    company: "TAFE Queensland",
+    description: [
+      "● Major: Cybersecurity",
+      "●	Related Coursework: Apply introductory programming techniques, Work in a team, Develop and extend critical and creative thinking skills"],
+    tech: []
+  },
+
+]

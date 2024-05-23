@@ -14,7 +14,7 @@ export default function HeroSection() {
             Hi, I&apos;m Julian.
           </span>
         </h1>
-        <p className="text-lg text-gray-300 md:w-96">
+        <p className="text-lg text-zinc-700 dark:text-gray-300 md:w-96">
           I&apos;m a fullstack developer from Australia with a passion for
           building modern web applications.
         </p>
