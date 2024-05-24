@@ -4,5 +4,4 @@ This project is my personal site which uses Next.js with React, TypeScript and T
 
 # TODO
 
-- add some animations on scroll?
-- improve lightmode text colouring
+- add animations
