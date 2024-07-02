@@ -2,7 +2,7 @@
 import { cn } from "@/lib/utils"
 import { AnimatePresence, motion } from "framer-motion"
 import { useState } from "react"
-import { IconType } from "react-icons"
+import type { IconType } from "react-icons"
 
 export const HoverEffect = ({
   items,
@@ -14,7 +14,7 @@ export const HoverEffect = ({
   }[]
   className?: string
 }) => {
-  let [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
   return (
     <div className={cn("grid grid-cols-2 py-10 lg:grid-cols-3", className)}>
@@ -43,10 +43,10 @@ export const HoverEffect = ({
                 />
               )}
             </AnimatePresence>
-            <div className="relative z-20 w-full cursor-pointer overflow-hidden rounded-md bg-white dark:bg-black p-4 ring-sky-500 transition-all duration-500 group-hover:ring-2">
+            <div className="relative z-20 w-full cursor-pointer overflow-hidden rounded-md bg-white p-4 ring-sky-500 transition-all duration-500 group-hover:ring-2 dark:bg-black">
               <div className="relative z-50 space-y-5 py-10 ">
                 <Icon className="mx-auto h-8 w-8" />
-                <p className="text-center text-2xl font-bold text-gray">
+                <p className="text-gray text-center text-2xl font-bold">
                   {item.text}
                 </p>
               </div>

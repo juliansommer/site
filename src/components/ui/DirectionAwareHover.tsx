@@ -20,6 +20,7 @@ export const DirectionAwareHover = ({
   const ref = useRef<HTMLDivElement>(null)
 
   const [direction, setDirection] = useState<
+    // eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents
     "top" | "bottom" | "left" | "right" | string
   >("left")
 

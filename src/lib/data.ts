@@ -11,7 +11,7 @@ import {
   SiReact,
   SiSqlite,
   SiTailwindcss,
-  SiTypescript
+  SiTypescript,
 } from "react-icons/si"
 
 export const experience = [
@@ -25,16 +25,28 @@ export const experience = [
       "●	Created Python script to scrape and store website metadata and icons from a million domains",
       "●	Used Next.js with TypeScript to dynamically create web pages for the most popular categories and vendors",
       "●	Used GitHub Actions with Docker to containerize the website and upload the image to GitHub Packages for CI/CD",
-      "●	Polished everything leading up to the site launch using Python, React.js, Go and MongoDB"],
-    tech: [SiPython, SiReact, SiNextdotjs, SiTypescript, SiGo, SiMongodb, SiTailwindcss, SiDocker]
+      "●	Polished everything leading up to the site launch using Python, React.js, Go and MongoDB",
+    ],
+    tech: [
+      SiPython,
+      SiReact,
+      SiNextdotjs,
+      SiTypescript,
+      SiGo,
+      SiMongodb,
+      SiTailwindcss,
+      SiDocker,
+    ],
   },
 
   {
     year: "November 2024",
     role: "Highschool Diploma",
     company: "Good Shepherd Lutheran College",
-    description: ["● Related Coursework: Digital Solutions, Math Methods, General Math, English"],
-    tech: [SiPython, SiSqlite, SiHtml5]
+    description: [
+      "● Related Coursework: Digital Solutions, Math Methods, General Math, English",
+    ],
+    tech: [SiPython, SiSqlite, SiHtml5],
   },
   {
     year: "January 2022 - September 2023",
@@ -42,8 +54,9 @@ export const experience = [
     company: "TAFE Queensland",
     description: [
       "● Major: Cybersecurity",
-      "●	Related Coursework: Apply introductory programming techniques, Work in a team, Develop and extend critical and creative thinking skills"],
-    tech: [SiPython]
+      "●	Related Coursework: Apply introductory programming techniques, Work in a team, Develop and extend critical and creative thinking skills",
+    ],
+    tech: [SiPython],
   },
 ]
 
@@ -54,7 +67,7 @@ export const projects = [
     link: "https://github.com/juliansommer/prompts",
     cover: "/prompts.png",
     background: "bg-sky-500",
-  }
+  },
 ]
 
 export const skills = [

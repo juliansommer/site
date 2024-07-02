@@ -13,19 +13,19 @@ export default function Experience() {
           {experience.map((experience, index) => (
             <div key={index} className=" mb-8 flex flex-wrap lg:justify-center">
               <div className="w-full lg:w-1/4">
-                <p className="mb-2 text-sm text-neutral">{experience.year}</p>
+                <p className="text-neutral mb-2 text-sm">{experience.year}</p>
               </div>
               <div className="w-full max-w-xl lg:w-3/4 ">
-                <h6 className="mb-2 font-semibold">
+                <p className="mb-2 font-semibold">
                   {experience.role} |{" "}
-                  <span className="text-sm text-neutral">
+                  <span className="text-neutral text-sm">
                     {experience.company}
                   </span>
-                </h6>
+                </p>
 
                 {experience.description.map((description, index) => {
                   return (
-                    <p key={index} className="mb-2 text-neutral">
+                    <p key={index} className="text-neutral mb-2">
                       {description}
                     </p>
                   )
