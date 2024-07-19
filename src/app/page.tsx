@@ -4,6 +4,13 @@ import HeroSection from "@/components/HeroSection"
 import Navbar from "@/components/Navbar"
 import Projects from "@/components/Projects"
 import Skills from "@/components/Skills"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+}
 
 export default function Home() {
   return (
