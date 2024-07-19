@@ -10,6 +10,7 @@ import {
   SiPython,
   SiReact,
   SiSqlite,
+  SiSupabase,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si"
@@ -20,7 +21,7 @@ export const experience = [
     role: "Junior Full Stack Developer",
     company: "Metatrail",
     description: [
-      "●	Optimized image loading using Next.js leading to a performance improvement of 50 on Google Lighthouse",
+      "●	Optimized SEO, performance (50 increase on Lighthouse), JavaScript bundle size (500kb -> 300kb) on the frontend",
       "●	Optimized page loading and requests using React by making the GraphQL queries only run-on tab change",
       "●	Created Python script to scrape and store website metadata and icons from a million domains",
       "●	Used Next.js with TypeScript to dynamically create web pages for the most popular categories and vendors",
@@ -61,6 +62,13 @@ export const experience = [
 ]
 
 export const projects = [
+  {
+    title: "Workout Track",
+    tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiSupabase],
+    link: "https://github.com/juliansommer/workout-track",
+    cover: "/workout-track.png",
+    background: "bg-sky-500",
+  },
   {
     title: "Prompts",
     tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiMongodb],
