@@ -1,13 +1,12 @@
+import { email } from "@/lib/data"
 import Link from "next/link"
 import Title from "./Title"
 
 export default function HeroSection() {
-  const email = process.env.EMAIL
-
   return (
     <div className="flex min-h-[60vh] animate-move-up flex-col-reverse items-center justify-between gap-14 lg:flex-row lg:gap-0">
       <div className="space-y-10 text-center lg:text-left">
-        <h1 className="text-4xl font-bold lg:text-7xl">
+        <h1 className="text-4xl font-bold lg:text-6xl">
           Nice to meet you! 👋
           <br />
           <span className="underline decoration-sky-500 underline-offset-8">
@@ -34,7 +33,7 @@ export default function HeroSection() {
             <div className="h-32 w-32 rounded-2xl bg-purple-500"></div>
             <div className="h-32 w-32 rounded-full bg-sky-500"></div>
           </div>
-          <div className="glow absolute right-1/2 top-[40%] -z-10"></div>
+          <div className="glow absolute right-1/2 top-[40%] -z-10 h-0 w-0 rounded-full"></div>
         </div>
       </div>
     </div>

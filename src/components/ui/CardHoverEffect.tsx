@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion"
 import { useState } from "react"
 import type { IconType } from "react-icons"
 
-export const HoverEffect = ({
+export function HoverEffect({
   items,
   className,
 }: {
@@ -13,7 +13,7 @@ export const HoverEffect = ({
     Icon: IconType
   }[]
   className?: string
-}) => {
+}) {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
   return (

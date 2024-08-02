@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion"
 import Image from "next/image"
 import { useRef, useState } from "react"
 
-export const DirectionAwareHover = ({
+export function DirectionAwareHover({
   imageUrl,
   children,
   childrenClassName,
@@ -16,7 +16,7 @@ export const DirectionAwareHover = ({
   childrenClassName?: string
   imageClassName?: string
   className?: string
-}) => {
+}) {
   const ref = useRef<HTMLDivElement>(null)
 
   const [direction, setDirection] = useState<
@@ -30,7 +30,6 @@ export const DirectionAwareHover = ({
     if (!ref.current) return
 
     const direction = getDirection(event, ref.current)
-    console.log("direction", direction)
     switch (direction) {
       case 0:
         setDirection("top")
@@ -85,10 +84,7 @@ export const DirectionAwareHover = ({
             }}>
             <Image
               alt="image"
-              className={cn(
-                "h-full w-full scale-[1.15] object-cover",
-                imageClassName,
-              )}
+              className={cn("scale-[1.15] object-cover", imageClassName)}
               width="1000"
               height="1000"
               src={imageUrl}
