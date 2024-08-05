@@ -39,26 +39,25 @@ export const experience = [
       SiDocker,
     ],
   },
-
-  // {
-  //   year: "November 2024",
-  //   role: "Highschool Diploma",
-  //   company: "Good Shepherd Lutheran College",
-  //   description: [
-  //     "● Related Coursework: Digital Solutions, Math Methods, General Math, English",
-  //   ],
-  //   tech: [SiPython, SiSqlite, SiHtml5],
-  // },
-  // {
-  //   year: "January 2022 - September 2023",
-  //   role: "Certificate 3 of Information Technology ICT30120",
-  //   company: "TAFE Queensland",
-  //   description: [
-  //     "● Major: Cybersecurity",
-  //     "●	Related Coursework: Apply introductory programming techniques, Work in a team, Develop and extend critical and creative thinking skills",
-  //   ],
-  //   tech: [SiPython],
-  // },
+  {
+    year: "November 2024",
+    role: "Highschool Diploma",
+    company: "Good Shepherd Lutheran College",
+    description: [
+      "● Related Coursework: Digital Solutions, Math Methods, General Math, English",
+    ],
+    tech: [SiPython, SiSqlite, SiHtml5],
+  },
+  {
+    year: "January 2022 - September 2023",
+    role: "Certificate 3 of Information Technology ICT30120",
+    company: "TAFE Queensland",
+    description: [
+      "● Major: Cybersecurity",
+      "●	Related Coursework: Apply introductory programming techniques, Work in a team, Develop and extend critical and creative thinking skills",
+    ],
+    tech: [SiPython],
+  },
 ]
 
 export const projects = [
@@ -99,30 +98,30 @@ export const skills = [
     text: "TypeScript",
     Icon: SiTypescript,
   },
-  {
-    text: "Go",
-    Icon: SiGo,
-  },
+  // {
+  //   text: "Go",
+  //   Icon: SiGo,
+  // },
   {
     text: "TailwindCSS",
     Icon: SiTailwindcss,
   },
-  {
-    text: "MongoDB",
-    Icon: SiMongodb,
-  },
-  {
-    text: "Docker",
-    Icon: SiDocker,
-  },
+  // {
+  //   text: "MongoDB",
+  //   Icon: SiMongodb,
+  // },
+  // {
+  //   text: "Docker",
+  //   Icon: SiDocker,
+  // },
 ]
 
 export const socials = [
-  // {
-  //   link: "https://www.linkedin.com/in/juliansommer/",
-  //   label: "LinkedIn",
-  //   icon: SiLinkedin,
-  // },
+  {
+    link: "https://www.linkedin.com/in/juliansommer/",
+    label: "LinkedIn",
+    icon: SiLinkedin,
+  },
   {
     link: "https://github.com/juliansommer",
     label: "GitHub",
