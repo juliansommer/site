@@ -1,5 +1,6 @@
 import {
   SiDocker,
+  SiFlask,
   SiGithub,
   SiGo,
   SiHtml5,
@@ -42,11 +43,11 @@ export const experience = [
   {
     year: "November 2024",
     role: "Highschool Diploma",
-    company: "Good Shepherd Lutheran College",
+    company: "High School",
     description: [
       "● Related Coursework: Digital Solutions, Math Methods, General Math, English",
     ],
-    tech: [SiPython, SiSqlite, SiHtml5],
+    tech: [SiPython, SiSqlite, SiFlask, SiHtml5],
   },
   {
     year: "January 2022 - September 2023",
