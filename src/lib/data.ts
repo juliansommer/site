@@ -119,14 +119,14 @@ export const skills = [
 
 export const socials = [
   {
-    link: "https://www.linkedin.com/in/juliansommer/",
-    label: "LinkedIn",
-    icon: SiLinkedin,
-  },
-  {
     link: "https://github.com/juliansommer",
     label: "GitHub",
     icon: SiGithub,
+  },
+  {
+    link: "https://www.linkedin.com/in/juliansommer/",
+    label: "LinkedIn",
+    icon: SiLinkedin,
   },
 ]
 
