@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="min-h-screen overflow-hidden bg-white dark:bg-black">
-      <div className="relative bg-grid-black/[0.02] dark:bg-grid-white/[0.02]">
+      <div className="relative bg-grid-black/[0.025] dark:bg-grid-white/[0.025]">
         <div className="mx-auto max-w-7xl p-5">
           <Navbar />
           <HeroSection />
