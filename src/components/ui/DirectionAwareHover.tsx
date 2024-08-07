@@ -20,8 +20,7 @@ export function DirectionAwareHover({
   const ref = useRef<HTMLDivElement>(null)
 
   const [direction, setDirection] = useState<
-    // eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents
-    "top" | "bottom" | "left" | "right" | string
+    "top" | "bottom" | "left" | "right"
   >("left")
 
   const handleMouseEnter = (
@@ -112,7 +111,6 @@ const variants = {
   initial: {
     x: 0,
   },
-
   exit: {
     x: 0,
     y: 0,
@@ -143,19 +141,15 @@ const textVariants = {
     opacity: 0,
   },
   top: {
-    y: -20,
     opacity: 1,
   },
   bottom: {
-    y: 2,
     opacity: 1,
   },
   left: {
-    x: -2,
     opacity: 1,
   },
   right: {
-    x: 20,
     opacity: 1,
   },
 }
