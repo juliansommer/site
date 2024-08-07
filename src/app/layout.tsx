@@ -21,9 +21,10 @@ export const metadata: Metadata = {
     template: "%s | Julian Sommer",
     default: "Julian Sommer",
   },
-  description: "Julian Sommer Portfolio Website",
+  description:
+    "Julian Sommer Portfolio Website which uses Next.js, React, TypeScript and Tailwind CSS",
   applicationName: "Julian Sommer Site",
-  keywords: ["Julian", "Sommer", "Julian Sommer"],
+  keywords: ["Julian", "Sommer", "Australia"],
   creator: "Julian Sommer",
 
   // not defining title and description in og as next will use the metadata.title and metadata.description
@@ -37,11 +38,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-    nocache: true,
     googleBot: {
       index: true,
       follow: true,
-      noimageindex: true,
       "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
@@ -57,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={fontSans.variable} suppressHydrationWarning>
       <head>
-        <body>
+        <body className="antialiased">
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"

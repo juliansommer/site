@@ -9,6 +9,8 @@ export default function ThemeButton() {
 
   useEffect(() => setMounted(true), [])
 
+  // need to check if mounted as otherwise the button will load before the rest of the page
+  // this would be fine, but its ugly + clicking the button wouldn't do anything
   if (!mounted) {
     return null
   }
