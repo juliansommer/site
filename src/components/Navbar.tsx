@@ -4,11 +4,7 @@ import Link from "next/link"
 
 export default function Navbar({ className }: { className?: string }) {
   return (
-    <nav
-      className={cn(
-        "flex animate-move-down items-center justify-between py-10",
-        className,
-      )}>
+    <nav className={cn("flex items-center justify-between py-10", className)}>
       <h1 className="-rotate-2 text-2xl font-bold underline decoration-purple-500 underline-offset-8">
         Julian Sommer 👨🏻‍💻
       </h1>

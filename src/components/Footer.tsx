@@ -2,7 +2,7 @@ import Navbar from "./Navbar"
 
 export default function Footer() {
   return (
-    <div className="mt-10 border-t">
+    <div className="border-t md:mt-10">
       <Navbar className="flex-col gap-5" />
     </div>
   )

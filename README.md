@@ -10,4 +10,3 @@ This project is my personal site which uses Next.js with React, TypeScript and T
 # TODO
 
 - add more animations - when u scroll to see the skills, will animate in. same for projects and experience.
-- have /projects page and then /projects/[slug] page where it will have a detailed breakdown of the project. need a headless cms for that?
