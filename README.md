@@ -10,3 +10,4 @@ This project is my personal site which uses Next.js with React, TypeScript and T
 # TODO
 
 - add more animations - when u scroll to see the skills, will animate in. same for projects and experience.
+- make footer go to max-6xl width to be the same as the nav bar
