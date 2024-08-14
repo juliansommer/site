@@ -10,13 +10,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "babel-plugin-react-compiler": "0.0.0-experimental-10b7b82-20240813",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.3.24",
+    "framer-motion": "12.0.0-alpha.0",
     "mini-svg-data-uri": "^1.4.4",
-    "next": "14.2.5",
+    "next": "15.0.0-rc.0",
     "next-themes": "^0.3.0",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "19.0.0-rc-d48603a5-20240813",
+    "react-dom": "19.0.0-rc-d48603a5-20240813",
     "react-icons": "^5.3.0",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7"
@@ -24,18 +25,23 @@
   "devDependencies": {
     "@types/eslint": "^8.56.2",
     "@types/node": "^22.2.0",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc",
     "@typescript-eslint/eslint-plugin": "^7.13.0",
     "@typescript-eslint/parser": "^7.13.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.5",
+    "eslint-plugin-react-compiler": "0.0.0-experimental-56229e1-20240813",
     "postcss": "^8.4.41",
     "prettier": "^3.3.3",
     "prettier-plugin-organize-imports": "^4.0.0",
     "prettier-plugin-tailwindcss": "^0.6.6",
-    "tailwindcss": "^3.4.9",
+    "tailwindcss": "^3.4.10",
     "typescript": "^5.5.4"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc"
   },
   "packageManager": "pnpm@9.7.0"
 }
