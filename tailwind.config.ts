@@ -6,7 +6,7 @@ const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette")
 
-export default {
+const config: Config = {
   content: ["./src/**/*.{ts,tsx}"],
   darkMode: "class",
   theme: {
@@ -60,4 +60,6 @@ export default {
       )
     },
   ],
-} satisfies Config
+}
+
+export default config
