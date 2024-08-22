@@ -10,6 +10,5 @@ This project is my personal site which uses Next.js with React, TypeScript and T
 # TODO
 
 - make the experience thing be in the centre when on less than md, on less than md it will put the dates at the top but this is currently aligned left
-- maybe change the image in projects depending on theme eg. if dark theme, display the dark theme image
 - add more animations - when u scroll to see the skills, will animate in. same for projects and experience.
 - make footer go to max-6xl width to be the same as the nav bar
