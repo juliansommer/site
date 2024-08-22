@@ -27,6 +27,8 @@ export default function Home() {
         <Skills />
         <Projects />
         <Experience />
+      </div>
+      <div className="mt-15 mx-auto max-w-6xl p-5">
         <Footer />
       </div>
     </div>
