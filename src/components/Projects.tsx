@@ -18,6 +18,7 @@ export default function Projects() {
               <div className={cn("rounded-md p-2", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
+                  imageAlt={project.title}
                   className="w-full cursor-pointer space-y-5">
                   <div className="space-y-2">
                     <h1 className="text-2xl font-bold">{project.title}</h1>

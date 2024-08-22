@@ -6,12 +6,14 @@ import { useRef, useState } from "react"
 
 export function DirectionAwareHover({
   imageUrl,
+  imageAlt,
   children,
   childrenClassName,
   imageClassName,
   className,
 }: {
   imageUrl: string
+  imageAlt: string
   children: React.ReactNode | string
   childrenClassName?: string
   imageClassName?: string
@@ -82,7 +84,7 @@ export function DirectionAwareHover({
               ease: "easeOut",
             }}>
             <Image
-              alt="image"
+              alt={imageAlt + " Image"}
               className={cn("scale-[1.15] object-cover", imageClassName)}
               width="1000"
               height="1000"
