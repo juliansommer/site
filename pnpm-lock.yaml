@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       babel-plugin-react-compiler:
-        specifier: 0.0.0-experimental-7d62301-20240819
-        version: 0.0.0-experimental-7d62301-20240819
+        specifier: 0.0.0-experimental-7d62301-20240822
+        version: 0.0.0-experimental-7d62301-20240822
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -22,7 +22,7 @@ importers:
         version: 1.4.4
       next:
         specifier: 15.0.0-canary.122
-        version: 15.0.0-canary.122(@babel/core@7.25.2)(babel-plugin-react-compiler@0.0.0-experimental-7d62301-20240819)(react-dom@19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816))(react@19.0.0-rc-1eaccd82-20240816)
+        version: 15.0.0-canary.122(@babel/core@7.25.2)(babel-plugin-react-compiler@0.0.0-experimental-7d62301-20240822)(react-dom@19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816))(react@19.0.0-rc-1eaccd82-20240816)
       next-themes:
         specifier: ^0.3.0
         version: 0.3.0(react-dom@19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816))(react@19.0.0-rc-1eaccd82-20240816)
@@ -46,8 +46,8 @@ importers:
         specifier: ^8.56.2
         version: 8.56.10
       '@types/node':
-        specifier: ^22.4.1
-        version: 22.4.1
+        specifier: ^22.5.0
+        version: 22.5.0
       '@types/react':
         specifier: npm:types-react@rc
         version: types-react@19.0.0-rc.1
@@ -487,8 +487,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.4.1':
-    resolution: {integrity: sha512-1tbpb9325+gPnKK0dMm+/LMriX0vKxf6RnB0SZUqfyVkQ4fMgUSySqhxE/y8Jvs4NyF1yHzTfG9KlnkIODxPKg==}
+  '@types/node@22.5.0':
+    resolution: {integrity: sha512-DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -747,8 +747,8 @@ packages:
   axobject-query@3.1.1:
     resolution: {integrity: sha512-goKlv8DZrK9hUh975fnHzhNIO4jUnFCfv/dszV5VwUGDFjI6vQ2VwoyjYjYNEbBE8AH87TduWP5uyDR1D+Iteg==}
 
-  babel-plugin-react-compiler@0.0.0-experimental-7d62301-20240819:
-    resolution: {integrity: sha512-MtERcQLDo4ZlkDmZXfdPJoW8s8P7mGvQH6vwFLHdllOrezDow8Njg+jJqU4G9awKAKd5hv8znxfb2rsvJf78GA==}
+  babel-plugin-react-compiler@0.0.0-experimental-7d62301-20240822:
+    resolution: {integrity: sha512-i+wxBCobHNIHs3IWyUC3ooB38VAs+VLDOdkvNZSoKKk2+KayDW6S9k7bJQHrKxK70VlEe4XEP+iFXVps3pSUcA==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -2604,7 +2604,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.4.1':
+  '@types/node@22.5.0':
     dependencies:
       undici-types: 6.19.8
 
@@ -2942,7 +2942,7 @@ snapshots:
     dependencies:
       deep-equal: 2.2.3
 
-  babel-plugin-react-compiler@0.0.0-experimental-7d62301-20240819:
+  babel-plugin-react-compiler@0.0.0-experimental-7d62301-20240822:
     dependencies:
       '@babel/generator': 7.2.0
       '@babel/types': 7.25.2
@@ -3927,7 +3927,7 @@ snapshots:
       react: 19.0.0-rc-1eaccd82-20240816
       react-dom: 19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816)
 
-  next@15.0.0-canary.122(@babel/core@7.25.2)(babel-plugin-react-compiler@0.0.0-experimental-7d62301-20240819)(react-dom@19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816))(react@19.0.0-rc-1eaccd82-20240816):
+  next@15.0.0-canary.122(@babel/core@7.25.2)(babel-plugin-react-compiler@0.0.0-experimental-7d62301-20240822)(react-dom@19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816))(react@19.0.0-rc-1eaccd82-20240816):
     dependencies:
       '@next/env': 15.0.0-canary.122
       '@swc/counter': 0.1.3
@@ -3949,7 +3949,7 @@ snapshots:
       '@next/swc-win32-arm64-msvc': 15.0.0-canary.122
       '@next/swc-win32-ia32-msvc': 15.0.0-canary.122
       '@next/swc-win32-x64-msvc': 15.0.0-canary.122
-      babel-plugin-react-compiler: 0.0.0-experimental-7d62301-20240819
+      babel-plugin-react-compiler: 0.0.0-experimental-7d62301-20240822
       sharp: 0.33.4
     transitivePeerDependencies:
       - '@babel/core'
