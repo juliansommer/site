@@ -3,6 +3,6 @@ const config = {
   bracketSameLine: true,
   semi: false,
   plugins: ["prettier-plugin-tailwindcss"],
-};
+}
 
-export default config;
+export default config
