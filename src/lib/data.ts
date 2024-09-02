@@ -43,7 +43,7 @@ export const experience = [
   {
     year: "November 2024",
     role: "Highschool Diploma",
-    company: "High School",
+    company: "Good Shepherd Lutheran College",
     description: [
       "● Related Coursework: Digital Solutions, Math Methods, General Math, English",
     ],
