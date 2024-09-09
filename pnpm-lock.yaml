@@ -67,8 +67,8 @@ importers:
         specifier: 15.0.0-canary.122
         version: 15.0.0-canary.122(eslint@8.57.0)(typescript@5.5.4)
       eslint-plugin-react-compiler:
-        specifier: 0.0.0-experimental-b8a7b48-20240830
-        version: 0.0.0-experimental-b8a7b48-20240830(eslint@8.57.0)
+        specifier: 0.0.0-experimental-b6997ec-20240909
+        version: 0.0.0-experimental-b6997ec-20240909(eslint@8.57.0)
       postcss:
         specifier: ^8.4.44
         version: 8.4.44
@@ -1039,8 +1039,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
 
-  eslint-plugin-react-compiler@0.0.0-experimental-b8a7b48-20240830:
-    resolution: {integrity: sha512-5AMC4eCj3egh0l2MACmYR3gu1m8i9kDx5K2PNiwRvNTb92kurNS1YSMHJmfYhWx2o/ZKlPvYIZstXTi+ZIKOCA==}
+  eslint-plugin-react-compiler@0.0.0-experimental-b6997ec-20240909:
+    resolution: {integrity: sha512-YTur5F/Q2JtIDCNrgURkWz0lYnHP7Yxw3Ja4EJSSKoVj4wZKL51Pw/K8LdXjfQouVTejCQg78jaifmcJAI2WPA==}
     engines: {node: ^14.17.0 || ^16.0.0 || >= 18.0.0}
     peerDependencies:
       eslint: '>=7'
@@ -3378,7 +3378,7 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.0
 
-  eslint-plugin-react-compiler@0.0.0-experimental-b8a7b48-20240830(eslint@8.57.0):
+  eslint-plugin-react-compiler@0.0.0-experimental-b6997ec-20240909(eslint@8.57.0):
     dependencies:
       '@babel/core': 7.25.2
       '@babel/parser': 7.25.3
