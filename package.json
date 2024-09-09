@@ -31,7 +31,7 @@
     "@typescript-eslint/parser": "^8.4.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "15.0.0-canary.122",
-    "eslint-plugin-react-compiler": "0.0.0-experimental-b8a7b48-20240830",
+    "eslint-plugin-react-compiler": "0.0.0-experimental-8d8bd53-20240905",
     "postcss": "^8.4.44",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
