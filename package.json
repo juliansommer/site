@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "babel-plugin-react-compiler": "0.0.0-experimental-9e9694c-20240826",
+    "babel-plugin-react-compiler": "0.0.0-experimental-7449567-20240905",
     "clsx": "^2.1.1",
     "framer-motion": "12.0.0-alpha.1",
     "mini-svg-data-uri": "^1.4.4",
