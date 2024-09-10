@@ -99,22 +99,18 @@ export const skills = [
     text: "TypeScript",
     Icon: SiTypescript,
   },
-  // {
-  //   text: "Go",
-  //   Icon: SiGo,
-  // },
+  {
+    text: "Go",
+    Icon: SiGo,
+  },
   {
     text: "TailwindCSS",
     Icon: SiTailwindcss,
   },
-  // {
-  //   text: "MongoDB",
-  //   Icon: SiMongodb,
-  // },
-  // {
-  //   text: "Docker",
-  //   Icon: SiDocker,
-  // },
+  {
+    text: "Docker",
+    Icon: SiDocker,
+  },
 ]
 
 export const socials = [
