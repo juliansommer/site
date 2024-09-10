@@ -26,3 +26,5 @@ export interface Social {
   label: string
   Icon: IconType
 }
+
+export type Email = `${string}@${string}.${string}`

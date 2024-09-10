@@ -1,4 +1,4 @@
-import type { Experience, Project, Skill, Social } from "@/types"
+import type { Email, Experience, Project, Skill, Social } from "@/types"
 import {
   SiDocker,
   SiFlask,
@@ -130,4 +130,4 @@ export const socials: Social[] = [
   },
 ]
 
-export const email = "hi@julians.au"
+export const email: Email = "hi@julians.au"
