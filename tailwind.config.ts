@@ -1,10 +1,9 @@
 /* eslint-disable */
 import svgToDataUri from "mini-svg-data-uri"
 import type { Config } from "tailwindcss"
+import animate from "tailwindcss-animate"
 import { fontFamily } from "tailwindcss/defaultTheme"
-const {
-  default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette")
+import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette"
 
 const config: Config = {
   content: ["./src/**/*.tsx"],
@@ -43,7 +42,7 @@ const config: Config = {
     },
   },
   plugins: [
-    require("tailwindcss-animate"),
+    animate,
     function ({ matchUtilities, theme }: any) {
       matchUtilities(
         {
