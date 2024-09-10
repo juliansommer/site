@@ -7,7 +7,7 @@ const {
 } = require("tailwindcss/lib/util/flattenColorPalette")
 
 const config: Config = {
-  content: ["./src/**/*.{ts,tsx}"],
+  content: ["./src/**/*.tsx"],
   darkMode: "class",
   theme: {
     extend: {
