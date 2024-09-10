@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection"
 import Navbar from "@/components/Navbar"
 import Projects from "@/components/Projects"
 import Skills from "@/components/Skills"
+import { education, experience } from "@/lib/data"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -23,12 +24,13 @@ export default function Home() {
         </div>
         <div className="absolute -bottom-5 left-0 h-10 bg-gradient-to-t from-white dark:from-black xl:h-32"></div>
       </div>
-      <div className="mt-15 mx-auto max-w-5xl p-5">
-        <Skills />
+      <div className="mx-auto max-w-5xl space-y-24 p-5">
+        <Experience title={"Experience 💼"} data={experience} />
+        <Experience title={"Education 📚"} data={education} />
         <Projects />
-        <Experience />
+        <Skills />
       </div>
-      <div className="mt-15 mx-auto max-w-6xl p-5">
+      <div className="mx-auto max-w-6xl p-5">
         <Footer />
       </div>
     </div>

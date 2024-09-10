@@ -1,15 +1,20 @@
-import { experience } from "@/lib/data"
+import { type Experience } from "../types"
 import Title from "./Title"
 
-export default function Experience() {
+interface ExperienceProps {
+  title: string
+  data: Experience[]
+}
+
+export default function Experience({ title, data }: ExperienceProps) {
   return (
-    <div className="pt-20">
+    <div>
       <Title
-        text={"Experience 💼"}
+        text={title}
         className="flex flex-col items-center justify-center"
       />
       <div className="pt-10">
-        {experience.map((experience, index) => (
+        {data.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <div className="w-full lg:w-1/4">
               <p className="text-neutral mb-2 text-sm">{experience.year}</p>

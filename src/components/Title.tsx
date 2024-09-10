@@ -1,10 +1,9 @@
-export default function Title({
-  text,
-  className,
-}: {
+interface TitleProps {
   text: string
   className?: string
-}) {
+}
+
+export default function Title({ text, className }: TitleProps) {
   return (
     <div className={className}>
       <h1 className="text-3xl font-bold transition-all group-hover:text-sky-400">

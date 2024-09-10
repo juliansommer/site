@@ -4,6 +4,15 @@ import { AnimatePresence, motion } from "framer-motion"
 import Image from "next/image"
 import { useRef, useState } from "react"
 
+interface DirectionAwareHoverProps {
+  imageUrl: string
+  imageAlt: string
+  children: React.ReactNode | string
+  childrenClassName?: string
+  imageClassName?: string
+  className?: string
+}
+
 export function DirectionAwareHover({
   imageUrl,
   imageAlt,
@@ -11,14 +20,7 @@ export function DirectionAwareHover({
   childrenClassName,
   imageClassName,
   className,
-}: {
-  imageUrl: string
-  imageAlt: string
-  children: React.ReactNode | string
-  childrenClassName?: string
-  imageClassName?: string
-  className?: string
-}) {
+}: DirectionAwareHoverProps) {
   const ref = useRef<HTMLDivElement>(null)
 
   const [direction, setDirection] = useState<

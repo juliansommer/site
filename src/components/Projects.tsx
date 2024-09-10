@@ -6,7 +6,7 @@ import Title from "./Title"
 
 export default function Projects() {
   return (
-    <div className="pt-10">
+    <div>
       <Title
         text={"Projects 🎨"}
         className="flex flex-col items-center justify-center"

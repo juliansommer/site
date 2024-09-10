@@ -5,7 +5,7 @@ import Title from "./Title"
 
 export default function Skills() {
   return (
-    <div className="mx-auto max-w-3xl pt-10">
+    <div className="mx-auto max-w-3xl">
       <Title
         text={"Skills 🛠️"}
         className="flex flex-col items-center justify-center"

@@ -1,3 +1,4 @@
+import type { Experience, Project, Skill, Social } from "@/types"
 import {
   SiDocker,
   SiFlask,
@@ -16,7 +17,7 @@ import {
   SiTypescript,
 } from "react-icons/si"
 
-export const experience = [
+export const experience: Experience[] = [
   {
     year: "September 2023 - Present",
     role: "Junior Full Stack Developer",
@@ -40,6 +41,9 @@ export const experience = [
       SiDocker,
     ],
   },
+]
+
+export const education: Experience[] = [
   {
     year: "November 2024",
     role: "Highschool Diploma",
@@ -61,7 +65,7 @@ export const experience = [
   },
 ]
 
-export const projects = [
+export const projects: Project[] = [
   {
     title: "Workout Track",
     tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiSupabase],
@@ -78,7 +82,7 @@ export const projects = [
   },
 ]
 
-export const skills = [
+export const skills: Skill[] = [
   {
     text: "Python",
     Icon: SiPython,
@@ -113,16 +117,16 @@ export const skills = [
   },
 ]
 
-export const socials = [
+export const socials: Social[] = [
   {
     link: "https://github.com/juliansommer",
     label: "GitHub",
-    icon: SiGithub,
+    Icon: SiGithub,
   },
   {
     link: "https://www.linkedin.com/in/juliansommer/",
     label: "LinkedIn",
-    icon: SiLinkedin,
+    Icon: SiLinkedin,
   },
 ]
 
