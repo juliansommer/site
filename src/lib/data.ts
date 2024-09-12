@@ -80,6 +80,20 @@ export const projects: Project[] = [
     cover: "/prompts.png",
     background: "bg-sky-500",
   },
+  {
+    title: "AI Project",
+    tech: [SiPython],
+    link: "https://github.com/juliansommer/ai-project",
+    cover: "/ai-project.png",
+    background: "bg-purple-500",
+  },
+  {
+    title: "Random Scripts",
+    tech: [SiPython],
+    link: "https://github.com/juliansommer/random-scripts",
+    cover: "/random-scripts.png",
+    background: "bg-purple-500",
+  },
 ]
 
 export const skills: Skill[] = [
