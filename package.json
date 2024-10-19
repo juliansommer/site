@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "babel-plugin-react-compiler": "0.0.0-experimental-07a2ff2-20241017",
+    "babel-plugin-react-compiler": "19.0.0-beta-9ee70a1-20241017",
     "clsx": "^2.1.1",
     "framer-motion": "12.0.0-alpha.1",
     "mini-svg-data-uri": "^1.4.4",
@@ -29,9 +29,9 @@
     "@types/react-dom": "npm:types-react-dom@rc",
     "@typescript-eslint/eslint-plugin": "^8.10.0",
     "@typescript-eslint/parser": "^8.10.0",
-    "eslint": "^9.12.0",
+    "eslint": "^9.13.0",
     "eslint-config-next": "15.0.0-rc.1",
-    "eslint-plugin-react-compiler": "0.0.0-experimental-07a2ff2-20241017",
+    "eslint-plugin-react-compiler": "19.0.0-beta-9ee70a1-20241017",
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.8",
