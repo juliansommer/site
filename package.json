@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@types/eslint": "^9.6.1",
-    "@types/node": "^22.7.9",
+    "@types/node": "^22.8.1",
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
     "@typescript-eslint/eslint-plugin": "^8.11.0",
