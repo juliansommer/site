@@ -1,6 +1,6 @@
 import ThemeButton from "@/components/ThemeButton"
-import { ThemeProvider } from "@/components/ThemeProvider"
 import type { Metadata } from "next"
+import { ThemeProvider } from "next-themes"
 import { Inter as FontSans } from "next/font/google"
 import "./globals.css"
 
