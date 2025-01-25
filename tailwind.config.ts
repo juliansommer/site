@@ -2,7 +2,7 @@
 import svgToDataUri from "mini-svg-data-uri"
 import type { Config } from "tailwindcss"
 import animate from "tailwindcss-animate"
-import { fontFamily } from "tailwindcss/defaultTheme"
+import fontFamily from "tailwindcss/defaultTheme"
 import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette"
 
 const config: Config = {
@@ -11,7 +11,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
+        sans: ["var(--font-sans)", ...fontFamily.fontFamily.sans],
       },
       keyframes: {
         "move-up": {

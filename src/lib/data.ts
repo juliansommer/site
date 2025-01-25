@@ -46,7 +46,14 @@ export const experience: Experience[] = [
 
 export const education: Experience[] = [
   {
-    year: "November 2024",
+    year: "Expected Graduation 2027",
+    role: "Bachelor of Computing Science",
+    company: "University of Technology Sydney",
+    description: [],
+    tech: [],
+  },
+  {
+    year: "2020 - 2024",
     role: "Highschool Diploma",
     company: "Good Shepherd Lutheran College",
     description: [
@@ -55,7 +62,7 @@ export const education: Experience[] = [
     tech: [SiPython, SiSqlite, SiFlask, SiHtml5],
   },
   {
-    year: "January 2022 - September 2023",
+    year: "2022 - 2023",
     role: "Certificate 3 of Information Technology ICT30120",
     company: "TAFE Queensland",
     description: [
