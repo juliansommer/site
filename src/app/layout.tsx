@@ -45,17 +45,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={fontSans.variable} suppressHydrationWarning>
-      <head>
-        <body className="antialiased">
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            disableTransitionOnChange>
-            {children}
-            <ThemeButton />
-          </ThemeProvider>
-        </body>
-      </head>
+      <body className="antialiased">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          disableTransitionOnChange>
+          {children}
+          <ThemeButton />
+        </ThemeProvider>
+      </body>
     </html>
   )
 }
