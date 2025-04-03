@@ -25,7 +25,7 @@ export const experience: Experience[] = [
     role: "Junior Full Stack Developer",
     company: "Metatrail",
     description: [
-      "●	Optimized SEO, performance (50 increase on Lighthouse), JavaScript bundle size (500kb -> 300kb) on the frontend",
+      "●	Optimized SEO, performance (50 increase on Lighthouse), JavaScript bundle size (500kb to 300kb) on the frontend",
       "●	Created a Go program to parse the DOM of websites against technologies matches using JavaScript",
       "●	Created Python script to scrape and store website metadata and icons from a million domains",
       "●	Used Next.js with TypeScript to dynamically create web pages for the most popular categories and vendors",
