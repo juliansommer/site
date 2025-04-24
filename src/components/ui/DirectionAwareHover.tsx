@@ -1,8 +1,10 @@
 "use client"
-import { cn } from "@/lib/utils"
+
 import { AnimatePresence, motion } from "motion/react"
 import Image from "next/image"
 import { useRef, useState } from "react"
+
+import { cn } from "@/lib/utils"
 
 interface DirectionAwareHoverProps {
   imageUrl: string
@@ -91,6 +93,7 @@ export function DirectionAwareHover({
               width="1000"
               height="1000"
               src={imageUrl}
+              priority
             />
           </motion.div>
           <motion.div

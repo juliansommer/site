@@ -1,6 +1,7 @@
+import Link from "next/link"
+
 import { socials } from "@/lib/data"
 import { cn } from "@/lib/utils"
-import Link from "next/link"
 
 interface NavbarProps {
   className?: string

@@ -1,4 +1,5 @@
 "use client"
+
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
 import { BsMoon, BsSun } from "react-icons/bs"
@@ -18,7 +19,7 @@ export default function ThemeButton() {
     mounted && (
       <button
         type="button"
-        className="fixed bottom-5 right-5 flex h-[3rem] w-[3rem] items-center justify-center rounded-full border border-black border-opacity-40 bg-white bg-opacity-80 shadow-2xl backdrop-blur-[0.5rem] transition-all hover:scale-[1.15] active:scale-105 dark:border-white dark:bg-gray-950"
+        className="border-opacity-40 bg-opacity-80 fixed right-5 bottom-5 flex h-[3rem] w-[3rem] items-center justify-center rounded-full border border-black bg-white shadow-2xl backdrop-blur-[0.5rem] transition-all hover:scale-[1.15] active:scale-105 dark:border-white dark:bg-gray-950"
         aria-label={theme === "dark" ? "Toggle light mode" : "Toggle dark mode"}
         onClick={() => {
           setTheme(theme === "dark" ? "light" : "dark")

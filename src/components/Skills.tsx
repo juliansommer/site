@@ -1,4 +1,5 @@
 "use client"
+
 import { HoverEffect } from "@/components/ui/CardHoverEffect"
 import { skills } from "@/lib/data"
 import Title from "./Title"

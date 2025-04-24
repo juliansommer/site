@@ -1,7 +1,8 @@
+import Link from "next/link"
+
 import { DirectionAwareHover } from "@/components/ui/DirectionAwareHover"
 import { projects } from "@/lib/data"
 import { cn } from "@/lib/utils"
-import Link from "next/link"
 import Title from "./Title"
 
 export default function Projects() {

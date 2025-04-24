@@ -1,7 +1,8 @@
-import ThemeButton from "@/components/ThemeButton"
 import type { Metadata } from "next"
 import { ThemeProvider } from "next-themes"
 import { Inter as FontSans } from "next/font/google"
+
+import ThemeButton from "@/components/ThemeButton"
 import "./globals.css"
 
 const fontSans = FontSans({
@@ -49,7 +50,8 @@ export default function RootLayout({
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
-          disableTransitionOnChange>
+          disableTransitionOnChange
+        >
           {children}
           <ThemeButton />
         </ThemeProvider>

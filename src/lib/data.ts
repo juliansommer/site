@@ -1,4 +1,3 @@
-import type { Email, Experience, Project, Skill, Social } from "@/types"
 import {
   SiDocker,
   SiFlask,
@@ -18,6 +17,8 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si"
+
+import type { Email, Experience, Project, Skill, Social } from "@/types"
 
 export const experience: Experience[] = [
   {
