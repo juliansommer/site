@@ -1,7 +1,7 @@
 import Link from "next/link"
 
-import { email } from "@/lib/data"
 import Title from "./Title"
+import { email } from "@/lib/data"
 
 export default function HeroSection() {
   return (
