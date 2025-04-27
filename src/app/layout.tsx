@@ -34,6 +34,7 @@ export const metadata: Metadata = {
     siteName: "Julian Sommer",
     locale: "en_AU",
     type: "website",
+    url: "https://julians.au",
   },
   twitter: {
     site: "https://julians.au",
