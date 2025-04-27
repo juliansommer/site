@@ -3,6 +3,7 @@ import { ThemeProvider } from "next-themes"
 import { Inter as FontSans } from "next/font/google"
 
 import ThemeButton from "@/components/ThemeButton"
+
 import "./globals.css"
 
 const fontSans = FontSans({

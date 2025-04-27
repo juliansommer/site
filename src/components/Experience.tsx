@@ -1,5 +1,6 @@
-import Title from "./Title"
 import type { Experience } from "@/types"
+
+import Title from "./Title"
 
 interface ExperienceProps {
   title: string

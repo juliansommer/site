@@ -1,8 +1,9 @@
 "use client"
 
-import Title from "./Title"
 import { HoverEffect } from "@/components/ui/CardHoverEffect"
 import { skills } from "@/lib/data"
+
+import Title from "./Title"
 
 export default function Skills() {
   return (
