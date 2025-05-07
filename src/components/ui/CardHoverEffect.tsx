@@ -26,7 +26,8 @@ export function HoverEffect({ items, className }: HoverEffectProps) {
             key={idx}
             className="group relative block h-full w-full p-2"
             onMouseEnter={() => setHoveredIndex(idx)}
-            onMouseLeave={() => setHoveredIndex(null)}>
+            onMouseLeave={() => setHoveredIndex(null)}
+          >
             <AnimatePresence>
               {hoveredIndex === idx && (
                 <motion.span

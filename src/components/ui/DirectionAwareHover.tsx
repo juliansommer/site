@@ -72,13 +72,15 @@ export function DirectionAwareHover({
       className={cn(
         "group/card relative overflow-hidden rounded-lg bg-transparent",
         className,
-      )}>
+      )}
+    >
       <AnimatePresence mode="wait">
         <motion.div
           className="relative h-full w-full"
           initial="initial"
           whileHover={direction}
-          exit="exit">
+          exit="exit"
+        >
           <motion.div className="absolute inset-0 z-10 hidden h-full w-full bg-black/40 transition duration-500 group-hover/card:block" />
           <motion.div
             variants={variants}
@@ -86,7 +88,8 @@ export function DirectionAwareHover({
             transition={{
               duration: 0.2,
               ease: "easeOut",
-            }}>
+            }}
+          >
             <Image
               alt={imageAlt + " Image"}
               className={cn("scale-[1.15] object-cover", imageClassName)}
@@ -105,7 +108,8 @@ export function DirectionAwareHover({
             className={cn(
               "absolute bottom-4 left-4 z-40 text-white",
               childrenClassName,
-            )}>
+            )}
+          >
             {children}
           </motion.div>
         </motion.div>

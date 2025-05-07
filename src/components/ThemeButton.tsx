@@ -23,7 +23,8 @@ export default function ThemeButton() {
         aria-label={theme === "dark" ? "Toggle light mode" : "Toggle dark mode"}
         onClick={() => {
           setTheme(theme === "dark" ? "light" : "dark")
-        }}>
+        }}
+      >
         {theme === "light" ? <BsMoon /> : <BsSun />}
       </button>
     )

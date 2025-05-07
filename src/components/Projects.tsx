@@ -21,7 +21,8 @@ export default function Projects() {
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   imageAlt={project.title}
-                  className="w-full cursor-pointer space-y-5">
+                  className="w-full cursor-pointer space-y-5"
+                >
                   <div className="space-y-2">
                     <h1 className="text-2xl font-bold">{project.title}</h1>
                     <div className="flex items-center gap-5">
