@@ -97,10 +97,10 @@ export const projects: Project[] = [
     background: "bg-purple-500",
   },
   {
-    title: "Random Scripts",
+    title: "Imgur Scan",
     tech: [SiPython],
-    link: "https://github.com/juliansommer/random-scripts",
-    cover: "/random-scripts.png",
+    link: "https://github.com/juliansommer/obsidian-imgur-scan",
+    cover: "/imgur-scan.png",
     background: "bg-purple-500",
   },
 ]
