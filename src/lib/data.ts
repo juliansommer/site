@@ -5,11 +5,9 @@ import {
   SiGo,
   SiHtml5,
   SiJavascript,
-  SiLangchain,
   SiLinkedin,
   SiMongodb,
   SiNextdotjs,
-  SiOpenai,
   SiPython,
   SiReact,
   SiSqlite,
@@ -77,7 +75,14 @@ export const education: Experience[] = [
 export const projects: Project[] = [
   {
     title: "Workout Track",
-    tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiSupabase],
+    tech: [
+      SiNextdotjs,
+      SiReact,
+      SiTypescript,
+      SiTailwindcss,
+      SiSupabase,
+      SiPython,
+    ],
     link: "https://github.com/juliansommer/workout-track",
     cover: "/workout-track.png",
     background: "bg-sky-500",
@@ -90,17 +95,17 @@ export const projects: Project[] = [
     background: "bg-sky-500",
   },
   {
-    title: "AI Project",
-    tech: [SiPython, SiLangchain, SiOpenai],
-    link: "https://github.com/juliansommer/ai-project",
-    cover: "/ai-project.png",
-    background: "bg-purple-500",
-  },
-  {
     title: "Imgur Scan",
     tech: [SiPython],
     link: "https://github.com/juliansommer/obsidian-imgur-scan",
     cover: "/imgur-scan.png",
+    background: "bg-purple-500",
+  },
+  {
+    title: "GitHub Activity",
+    tech: [SiGo],
+    link: "https://github.com/juliansommer/github-activity",
+    cover: "/github-activity.png",
     background: "bg-purple-500",
   },
 ]
