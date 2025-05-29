@@ -1,3 +1,4 @@
+import { FaJava } from "react-icons/fa"
 import {
   SiDocker,
   SiFlask,
@@ -20,7 +21,7 @@ import type { Email, Experience, Project, Skill, Social } from "@/types"
 
 export const experience: Experience[] = [
   {
-    year: "September 2023 - December 2024",
+    year: "Sep 2023 - Dec 2024",
     role: "Junior Full Stack Developer",
     company: "Metatrail",
     description: [
@@ -45,28 +46,32 @@ export const experience: Experience[] = [
 
 export const education: Experience[] = [
   {
-    year: "Expected Graduation 2027",
+    year: "Expected Graduation Nov 2027",
     role: "Bachelor of Computing Science",
     company: "University of Technology Sydney",
-    description: [],
-    tech: [],
+    description: [
+      "●	Grade: TBD",
+      "●	Related Coursework: Programming 1, Programming 2, Network Fundamentals, Database Fundamentals",
+    ],
+    tech: [SiPython, FaJava],
   },
   {
-    year: "2020 - 2024",
-    role: "Highschool Diploma",
+    year: "Jan 2020 - Nov 2024",
+    role: "High School Diploma",
     company: "Good Shepherd Lutheran College",
     description: [
-      "● Related Coursework: Digital Solutions, Math Methods, General Math, English",
+      "●	Grade: 92.10 ATAR",
+      "●	Top of Grade: Digital Solutions, General Mathematics",
     ],
     tech: [SiPython, SiSqlite, SiFlask, SiHtml5],
   },
   {
-    year: "2022 - 2023",
+    year: "Jan 2022 - Sep 2023",
     role: "Certificate 3 of Information Technology ICT30120",
     company: "TAFE Queensland",
     description: [
-      "● Major: Cybersecurity",
-      "●	Related Coursework: Apply introductory programming techniques, Work in a team, Develop and extend critical and creative thinking skills",
+      "●	Major: Cybersecurity",
+      "●	Related Coursework: Apply introductory programming techniques",
     ],
     tech: [SiPython],
   },
@@ -79,9 +84,9 @@ export const projects: Project[] = [
       SiNextdotjs,
       SiReact,
       SiTypescript,
+      SiPython,
       SiTailwindcss,
       SiSupabase,
-      SiPython,
     ],
     link: "https://github.com/juliansommer/workout-track",
     cover: "/workout-track.png",
