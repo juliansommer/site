@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-black">
       <div
         className={cn(
           "absolute inset-0",
@@ -39,6 +39,6 @@ export default function Home() {
       <div className="mx-auto max-w-6xl p-5">
         <Footer />
       </div>
-    </>
+    </div>
   )
 }
