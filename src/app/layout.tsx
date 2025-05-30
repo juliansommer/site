@@ -1,8 +1,5 @@
 import type { Metadata } from "next"
-import { ThemeProvider } from "next-themes"
 import { Inter as FontSans } from "next/font/google"
-
-import ThemeButton from "@/components/ThemeButton"
 
 import "./globals.css"
 
@@ -48,16 +45,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={fontSans.variable} suppressHydrationWarning>
-      <body className="antialiased">
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          disableTransitionOnChange
-        >
-          {children}
-          <ThemeButton />
-        </ThemeProvider>
-      </body>
+      <body className="bg-black antialiased">{children}</body>
     </html>
   )
 }
