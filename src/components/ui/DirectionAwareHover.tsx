@@ -84,7 +84,7 @@ export function DirectionAwareHover({
           <motion.div className="absolute inset-0 z-10 hidden h-full w-full bg-black/40 transition duration-500 group-hover/card:block" />
           <motion.div
             variants={variants}
-            className="relative h-full w-full bg-gray-50 dark:bg-black"
+            className="relative h-full w-full"
             transition={{
               duration: 0.2,
               ease: "easeOut",
