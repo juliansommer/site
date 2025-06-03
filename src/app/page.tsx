@@ -30,7 +30,7 @@ export default function Home() {
         <Navbar className="animate-move-down" />
         <HeroSection />
       </div>
-      <div className="mx-auto max-w-5xl space-y-24 p-5">
+      <div className="mx-auto max-w-5xl space-y-24 p-5 pt-10">
         <Experience title={"Experience 💼"} data={experience} />
         <Experience title={"Education 📚"} data={education} />
         <Projects />
