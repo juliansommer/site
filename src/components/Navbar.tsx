@@ -3,11 +3,7 @@ import Link from "next/link"
 import { socials } from "@/lib/data"
 import { cn } from "@/lib/utils"
 
-interface NavbarProps {
-  className?: string
-}
-
-export default function Navbar({ className }: NavbarProps) {
+export default function Navbar({ className }: { className?: string }) {
   return (
     <nav className={cn("flex items-center justify-between py-10", className)}>
       <h1 className="-rotate-2 text-2xl font-bold text-white underline decoration-purple-500 underline-offset-8">
