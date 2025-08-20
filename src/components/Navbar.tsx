@@ -1,5 +1,3 @@
-import Link from "next/link"
-
 import { socials } from "@/lib/data"
 import { cn } from "@/lib/utils"
 
@@ -13,9 +11,9 @@ export default function Navbar({ className }: { className?: string }) {
         {socials.map((social, index) => {
           const Icon = social.Icon
           return (
-            <Link href={social.link} key={index} aria-label={social.label}>
+            <a href={social.link} key={index} aria-label={social.label}>
               <Icon className="h-5 w-5 text-white transition-all hover:scale-125" />
-            </Link>
+            </a>
           )
         })}
       </div>

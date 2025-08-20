@@ -1,5 +1,3 @@
-import Link from "next/link"
-
 import { DirectionAwareHover } from "@/components/ui/DirectionAwareHover"
 import { projects } from "@/lib/data"
 import { cn } from "@/lib/utils"
@@ -16,7 +14,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 gap-5 pt-10 sm:grid-cols-2">
         {projects.map((project, index) => {
           return (
-            <Link href={project.link} key={index}>
+            <a href={project.link} key={index}>
               <div className={cn("rounded-md p-2", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
@@ -33,7 +31,7 @@ export default function Projects() {
                   </div>
                 </DirectionAwareHover>
               </div>
-            </Link>
+            </a>
           )
         })}
       </div>

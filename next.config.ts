@@ -20,6 +20,7 @@ const nextConfig: NextConfig = {
     reactCompiler: true,
   },
   poweredByHeader: false,
+  typedRoutes: true,
   async headers() {
     return [
       {

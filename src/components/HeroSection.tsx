@@ -1,5 +1,3 @@
-import Link from "next/link"
-
 import { email } from "@/lib/data"
 
 import Title from "./Title"
@@ -19,9 +17,9 @@ export default function HeroSection() {
           I&apos;m a fullstack developer from Australia with a passion for
           building modern web applications.
         </p>
-        <Link href={`mailto:${email}`} className="group inline-block">
+        <a href={`mailto:${email}`} className="group inline-block">
           <Title text={"Contact 📧"} />
-        </Link>
+        </a>
       </div>
     </div>
   )
